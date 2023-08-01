@@ -32,6 +32,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-datetime-jvm:0.4.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.5.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.5.1")
 
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-web")

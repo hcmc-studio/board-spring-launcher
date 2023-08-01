@@ -14,7 +14,6 @@ class Application {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-//            println(ObjectMapper.findModules().map { it.moduleName to it.dependencies })
             runApplication<Application>()
         }
     }
