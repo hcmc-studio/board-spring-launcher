@@ -7,6 +7,8 @@ plugins {
     kotlin("plugin.serialization") version "1.9.0"
     id("org.springframework.boot") version "3.1.2"
     id("io.spring.dependency-management") version "1.1.2"
+    application
+    distribution
 }
 
 group = "studio.hcmc"
@@ -14,6 +16,10 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+}
+
+application {
+    mainClass.set("studio.hcmc.board.Application")
 }
 
 dependencies {
